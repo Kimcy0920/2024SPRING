@@ -1,0 +1,18 @@
+
+9월 12, 2024 15:12:04.568 NEW SESSION
+9월 12, 2024 15:12:04.568 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+9월 12, 2024 16:24:57.997 NEW SESSION
+9월 12, 2024 16:24:57.997 [17172:10844:0912/162457.997:ERROR:device_event_log_impl.cc(196)] [16:24:57.996] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+9월 12, 2024 16:24:58.60 Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 12, 2024 16:25:41.769 [5216:9140:0912/162541.769:ERROR:device_event_log_impl.cc(196)] [16:25:41.770] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+9월 12, 2024 16:25:41.837 Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 12, 2024 16:29:28.225 [15972:12844:0912/162928.224:ERROR:device_event_log_impl.cc(196)] [16:29:28.224] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+9월 12, 2024 16:29:28.316 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+9월 12, 2024 16:52:44.740 NEW SESSION
+9월 12, 2024 16:52:44.740 [16736:1284:0912/165244.739:ERROR:device_event_log_impl.cc(196)] [16:52:44.738] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+9월 12, 2024 16:52:44.808 Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 12, 2024 19:12:54.460 Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 12, 2024 19:35:20.908 Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 12, 2024 19:35:41.433 Created TensorFlow Lite XNNPACK delegate for CPU.

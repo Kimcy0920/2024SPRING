@@ -18,9 +18,7 @@ public class MyController {
 
     @RequestMapping("/")
     public @ResponseBody String root() throws Exception{
-    	
-    	
-    	
+    	    	
     	// insert
     	MyUserDTO userDTO = new MyUserDTO(50, "영업", "서울");
     	userDao.saveUser(userDTO);

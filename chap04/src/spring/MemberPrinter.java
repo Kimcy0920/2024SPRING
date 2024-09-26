@@ -10,10 +10,10 @@ public class MemberPrinter {
 
 	private DateTimeFormatter dateTimeFormatter;
 
-	public MemberPrinter() {
-		System.out.println("생성자 실행");
-		dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy년 MM월 dd일");
-	}
+//	public MemberPrinter() {
+//		System.out.println("생성자 실행");
+//		dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy년 MM월 dd일");
+//	}
 	/* 생성자가 setter보다 먼저 실행됨
 	 * DateTimeFormatter타입 빈이 존재하지 않을 때 기본생성자에서 초기화한 DateTimeFormatter를 사용해서 출력함.
 	 * 1번 setter방식의 경우 @Autowired(required = false)이면 일치하는 빈이 존재하지 않을 때 null을 전달하지 않음.
@@ -42,15 +42,15 @@ public class MemberPrinter {
 //	}
 	
 // 	2. setter가 실행이 됨 Optional - dateTimeFormatter에 Null을 넣음
-	@Autowired // Optional을 사용해 NullPointException 예외 처리 방지
-	public void setDateFormatter(Optional<DateTimeFormatter> formatterOpt) {
-		// Optional: NullPointException 예외 방지
-		if (formatterOpt.isPresent()) { // isPresent(): formatterOpt가 존재하는지 여부
-			this.dateTimeFormatter = formatterOpt.get(); // true
-		} else {
-			this.dateTimeFormatter = null; // false
-		}
-	}
+//	@Autowired // Optional을 사용해 NullPointException 예외 처리 방지
+//	public void setDateFormatter(Optional<DateTimeFormatter> formatterOpt) {
+//		// Optional: NullPointException 예외 방지
+//		if (formatterOpt.isPresent()) { // isPresent(): formatterOpt가 존재하는지 여부
+//			this.dateTimeFormatter = formatterOpt.get(); // true
+//		} else {
+//			this.dateTimeFormatter = null; // false
+//		}
+//	}
 	
 // 	1. setter가 실행이 되지 않음. (required = false)
 //	@Autowired(required = false)

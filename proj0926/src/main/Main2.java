@@ -14,11 +14,10 @@ public class Main2 {
 
 		OrderDao dbQuery = ctx.getBean(OrderDao.class);
 		
-		Member member = new Member(null, "", "", "", "");
-		System.out.println("사용자 등록이 완료되었습니다.");
-		System.out.println(member.getName() + member.getCity() + member.getStreet() + member.getZipcode());
-		
-		
+//		Member member = new Member(null, "", "", "", "");
+//		System.out.println("사용자 등록이 완료되었습니다.");
+//		System.out.println(member.getName() + member.getCity() + member.getStreet() + member.getZipcode());
+	
 		// 상품 목록
 		for (Item item : dbQuery.selectAllItem()) {
 			System.out.println("상품명: " + item.getName() + " 가격: " + item.getPrice() + " 수량: " + item.getStockQuantity());
@@ -40,6 +39,6 @@ public class Main2 {
 //		for (OrderResult orderResult : dbQuery.selectByOrder(input)) {
 //			System.out.println(orderResult);
 //		}
-//		ctx.close();
+		ctx.close();
 	}
 }
